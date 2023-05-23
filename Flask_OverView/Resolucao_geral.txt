@@ -61,4 +61,6 @@ pasta template e arquivos index.html
 }
 aula2 : 
 
-desenvolvimento das migrates
+# flask db init iniciar o banco
+# flask db migrate criar o migrate dentro do banco 
+# flask db upgrade atualizar

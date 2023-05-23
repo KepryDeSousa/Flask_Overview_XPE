@@ -16,9 +16,6 @@ app.config.from_object('config')
 db.init_app(app)
 
 migrate = Migrate(app,db)
-# flask db init iniciar o banco
-# flask db migrate criar o migrate dentro do banco 
-# flask db upgrade atualizar
 
 
 
