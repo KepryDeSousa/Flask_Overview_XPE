@@ -49,3 +49,16 @@ instalar uma dependencia flask {
     pip freeze > requeriments.txt
 
 }
+
+Modulo 2 ORM: 
+Aula um adicionando arquivos form e config separados; 
+preicisamos installar o nosso banco de dados
+{
+antes o migrate : pip install Flask.migrate
+sqlalchemy
+refatoramos o formulario, desenvolvemos o config,
+pasta template e arquivos index.html
+}
+aula2 : 
+
+desenvolvimento das migrates

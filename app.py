@@ -1,14 +1,26 @@
-from flask import Flask as Fk
+from models.User import db
+from flask import Flask 
 from flask import render_template
 import os 
-from .form import NameForms
+from form import NameForms
+import config
+from flask_migrate import Migrate
 
-template_dir = os.path.abspath("./Templates")
 
 
-app = Fk(__name__,template_folder=template_dir)
 
-app.config["SECRET_KEY"] = "dsfdfdfdfdffdsdsd45454"
+app = Flask(__name__)
+
+app.config.from_object('config')
+
+db.init_app(app)
+
+migrate = Migrate(app,db)
+# flask db init iniciar o banco
+# flask db migrate criar o migrate dentro do banco 
+# flask db upgrade atualizar
+
+
 
 #rotas
 @app.route("/",methods=['GET','POST'])
