@@ -39,3 +39,13 @@ Aula3 :
         desenvolvemos um template e uma rota
         uma rota dinamica usando jinja
     }
+
+Aula 5: Formularios
+usaremos um pacote padrao do flask 
+instalar uma dependencia flask {
+    
+    pip install flask-wtf
+    atualizando requeriments
+    pip freeze > requeriments.txt
+
+}

@@ -9,5 +9,11 @@
 <body>
     <h1>My First Template Flask</h1>
     <h3> Olá {% if name %}  {{name}} {% endif %}</h3>
+
+    <form method="POST">
+        {{form.hidden_tag()}}
+        {{form.name.label}} {{form.name}} 
+        {{form.submit}} 
+    </form>
 </body>
 </html>
