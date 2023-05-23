@@ -1,0 +1,41 @@
+Aula 1: {
+
+    O flask funciona como mini framework, logo ele so inicia com o minimo usavel para ao menos ligar o servidor
+
+
+    criamos o ambiente virtual -> ativou :
+    instalar :
+    python3  install flask 
+    ativar :
+    source ./env/bin/activate
+
+    verificou as dependencias 
+    python -m flask --version 
+
+    e guardou 
+    pip freeze > requeriments.txt
+}
+Aula 2 : {
+
+    Desenvolvendo nosso app
+
+    criou o primeiro arquivo (app.py)
+    rota index ("/")
+
+    levantando server
+    set FLASK_APP = app.py
+    flask run
+}
+Aula3 :
+{
+    para executar : exportar app como app flask 
+    (set FLASK_APP = app.py
+     flask run
+    )
+
+    desenvolvendo templates :
+
+        templates ou rotas dinamicas 
+        desenvolvemos um template e uma rota
+        uma rota dinamica usando jinja
+    }
